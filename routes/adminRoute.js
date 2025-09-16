@@ -64,7 +64,7 @@ router.post("/change-doctor-status", authMiddelware, async (req, res) => {
         res.status(500).send({
             message: "Error applying doctor account",
             success: false,
-            error!
+            error
         });
 
     }

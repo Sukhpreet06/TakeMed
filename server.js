@@ -1,6 +1,8 @@
 const express = require("express");
+// import express from 'express';
 const app= express();
 require('dotenv').config();
+
 const dbConfig=require("./config/dbConfig.js");
 app.use(express.json());
 const userRoute=require("./routes/userRoute.js")

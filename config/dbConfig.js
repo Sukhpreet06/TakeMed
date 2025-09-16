@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+// import mongoose from 'mongoose'
 
 // Connect to MongoDB without deprecated options
 mongoose.connect(process.env.MONGO_URL);
